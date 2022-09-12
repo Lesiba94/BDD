@@ -21,7 +21,7 @@ public class StepDefinitions {
     @Given("Demo web shop page is open")
     public void demo_web_shop_page_is_open() {
 
-        application.loginPage.LoginPage(new User("Admin","admin"));
+        application.loginPage.LoginPage(new User("Admin","admin123"));
     }
     @When("user enter valid username and password")
     public void user_enter_valid_username_and_password() {
